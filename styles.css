@@ -1,10 +1,16 @@
 /*******************************************
 GENERAL STYLES
 *******************************************/
-* { 
+* {
   box-sizing: border-box;
   transition: all .3s;
-}  
+}
+::selection {
+  background: rgba(255,152,0,.7);
+}
+::-moz-selection {
+  background: rgba(255,152,0,.7);
+}
 body {
   margin: 0;
   padding: 0;
@@ -23,10 +29,11 @@ h2 {
 }
 a {
   text-decoration: none;
-  color: #FF9800;
+  color: rgba(255,152,0,1);
 }
 a:hover {
-  color: #FFB74D;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,152,0,1);
 }
 .clearfix {
   clear: both;
@@ -68,7 +75,8 @@ NAVIGATION
   color: rgba(255,255,255,.7);
   font-weight: 700;
   font-size: 1em;
-  padding: .9em 1em .6em 1em;
+  padding: .9em .4em .6em .4em;
+  margin: 0 .25em;
   border-bottom: 5px solid rgba(255,255,255,0);
 }
 #nav-links a:hover {
@@ -128,15 +136,14 @@ header {
 }
 header .profile-pic {
   border-radius: 100%;
-  max-width: 150px;
+  max-width: 125px;
   border: .4em solid rgba(255,255,255,.5);
-  margin: 3em auto 1.5em;
+  margin: 2.5em auto 1.5em;
 }
 header .profile-pic:hover {
   border-radius: 100%;
-  max-width: 150px;
   border: .4em solid rgba(255,255,255,1);
-  margin: 3em auto 1.5em;
+  margin: 2.5em auto 1.5em;
 }
 header h1 {
   color: rgba(255,255,255,1);
@@ -149,6 +156,7 @@ header p {
   color: rgba(255,255,255,1);
   margin: 0;
   padding: 0 0 4em 0;
+  font-size: .8em;
   text-shadow: 1px 4px 10px rgba(0, 0, 0, .5);
 }
 @media screen and (min-width: 720px) {
@@ -162,7 +170,7 @@ header p {
     border-radius: 100%;
     max-width: 200px;
     border: .5em solid rgba(255,255,255,.5);
-    margin: 3em auto 1.5em;
+    margin: 2.5em auto 1.5em;
   }
   header .profile-pic:hover {
     border-radius: 100%;
@@ -172,7 +180,7 @@ header p {
   }
   header h1 {
     font-size: 3em;
-    color: rgba(255,255,255,1);  
+    color: rgba(255,255,255,1);
     text-transform: uppercase;
     margin: 0 auto .5em auto;
     padding: 0;
@@ -229,9 +237,9 @@ CARDS
 }
 .card ul li {
   margin: 0;
-  padding: 2% 3%;
+  padding: 2% 2.5%;
   border-radius: .3em;
-  font-size: .9em;
+  font-size: .8em;
   background-color: #64B5F6;
   color: rgba(255,255,255,1);
 }

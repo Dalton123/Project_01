@@ -75,6 +75,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/screenshot_of_email.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.33215e+06,
+		"inputAbbreviatedPath": "\/images\/screenshot_of_email.png",
+		"outputAbbreviatedPath": "\/images\/screenshot_of_email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/screenshot_of_treehouse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100423,
+		"inputAbbreviatedPath": "\/images\/screenshot_of_treehouse.png",
+		"outputAbbreviatedPath": "\/images\/screenshot_of_treehouse.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,

@@ -39,6 +39,12 @@ NAVIGATION
     justify-content: center;
     align-items: center;
 }
+.main-nav .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #logo {
     flex-grow: 2;
     text-align: left;
@@ -78,7 +84,13 @@ NAVIGATION
 }
 @media screen and (min-width: 720px) {
     .main-nav {
-        min-height: 4em;
+      min-height: 4em;
+    }
+    .main-nav .wrapper {
+      width: 1400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     #logo a {
         font-size: 2em;
@@ -166,7 +178,7 @@ main * {
     max-width: 1530px;
 }
 .card {
-    opacity: 0.89999997615814208984375;
+    opacity: 0.9;
     background: #1976D2;
     margin: 5% 1%;
     padding: 5%;
@@ -182,6 +194,9 @@ main * {
 .card a {
     text-decoration: none;
     color: rgba(255, 152, 0, 1);
+}
+.card p a img {
+  max-width: 100%;
 }
 .card b {
     color: #5fcf80;
@@ -267,6 +282,7 @@ main * {
     }
     .full_width_pod {
         padding: 2%;
+        margin-bottom: 2%;
     }
     .card {
         width: 50%;
